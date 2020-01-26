@@ -37,7 +37,7 @@ export default class Home extends Component {
                         <button onClick= {()=> this.fire('paper')}><img src="/images/paper.png" /></button>
                     </div>
                     <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-                        <button onClick= {()=> this.fire('paper')}><img src="/images/scissor.png" /></button>
+                        <button onClick= {()=> this.fire('scissor')}><img src="/images/scissor.png" /></button>
                     </div>
                 </div>
 
