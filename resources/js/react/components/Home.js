@@ -12,6 +12,10 @@ export default class Home extends Component {
     }
 
     fire(choice){
+        this.setState({
+            res: null
+        });
+
         axios.post('/api/process', {
                 choice : choice
             })
